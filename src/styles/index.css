@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap");
+* {
+  font-family: "Lexend", sans-serif;
+  color: #585858;
+}
+body {
+  background-color: #21d4fd;
+  background-image: linear-gradient(90deg, #21d4fd 0%, #b721ff 100%);
+}
+
+.card {
+  border-radius: 1rem;
+  padding: 1rem 0 3rem 0;
+  position: relative;
+}
+
+h6.card-title {
+  color: #5071e6;
+  margin: 0;
+}
+
+h3.card-title {
+  padding: 2rem 0;
+}
+
+.card-header {
+  padding: 0.5rem 0 1.25rem 0;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.card-body {
+  text-align: left;
+  padding: 0 5rem;
+}
+
+.Collapsible {
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  margin: 1rem 0;
+  padding-left: 1rem;
+  cursor: default;
+}
+
+.todo-list,
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-check-input {
+  align-self: flex-start;
+  margin-top: 1.5rem;
+}
+.task-checkbox {
+  align-self: center;
+  margin: 0 2rem;
+}
+
+.text-decoration-line-through {
+  color: #58585850;
+}
+
+.addButton {
+  width: 70px;
+  height: 70px;
+  border: none;
+  border-radius: 50%;
+
+  position: absolute;
+  bottom: -25px;
+  left: 46%;
+
+  background-color: #148ca7;
+
+  font-size: 2.5em;
+
+  box-shadow: 0 0 50px -5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0 0 50px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 0 50px -5px rgba(0, 0, 0, 0.75);
+}

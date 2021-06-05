@@ -1,0 +1,52 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Complete assignments",
+      "completed": true,
+      "tasks": [
+        {
+          "title": "Buy groceries",
+          "taskId": 1.1
+        },
+        {
+          "title": "Preapare recipe",
+          "taskId": 1.2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Cook dinner",
+      "completed": false,
+      "tasks": [
+        {
+          "title": "Buy groceries",
+          "taskId": 2.1
+        },
+        {
+          "title": "Preapare recipe",
+          "taskId": 2.2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Lunch at Marina Mall",
+      "completed": false,
+      "tasks": []
+    },
+    {
+      "id": 4,
+      "title": "Meet Kelly",
+      "completed": false,
+      "tasks": []
+    },
+    {
+      "id": 5,
+      "title": "zxczxc",
+      "completed": false,
+      "tasks": []
+    }
+  ]
+}
